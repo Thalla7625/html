@@ -1,0 +1,512 @@
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: black;
+  }
+  .nav1 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+
+}
+
+ a {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.card img{
+    height: 200px;
+    width: 150px;
+}
+.card{
+    height: 202px;
+    width: 152px;
+    border: 5px solid white;
+    border-radius: 5px;
+    
+}
+.container2{
+   margin-left: 20px;
+}
+.card2 img{
+    height: 200px;
+    width: 150px;
+}
+.card2{
+    height: 202px;
+    width: 152px;
+    border: 4px solid grey;
+    border-radius: 3px;
+
+}
+.container3 img{
+    height: 800px;
+    width: 550px;
+}
+.container4 h1{
+    color:white;
+}
+.container4 h2{
+    color:white;
+}
+.container1{
+    display: flex;
+}
+.star-rating p{
+ color: red;
+}
+.star-rating{
+    display: flex;
+    gap: 10px;
+}
+.priceing {
+    display: flex;
+    font-size: xx-large;
+    
+    color: white;
+    gap: 15px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color: grey;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: x-large;
+}
+.card3{
+    display: flex;
+    gap: 30px;
+}
+.card3 h2{
+   color: rgb(94, 234, 94);
+}
+.btn{
+    color: white;
+    background-color: rgb(94, 234, 94);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+.emi{
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    
+    
+}
+.pay{ 
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    
+
+
+}
+.payment{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.vamsi{
+    
+    height: auto;
+}
+    
+    
+
+
+.title h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.specifications{
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: black;
+
+}
+.specifications ul li{
+    list-style: none;
+}
+
+.specifications-content {
+    width: 100%;
+    background-color:black;
+    padding: 20px;
+    border-radius: px;
+    margin-right:px ;
+    margin-left: px;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    margin-bottom: 10px;
+}
+
+table td {
+    padding: 10px 10px;
+}
+
+table td:first-child {
+    color: #aaa;
+}
+
+table td:last-child {
+    color: #fff;
+    text-align: left;
+}
+
+strong {
+    font-weight: 600;
+}
+
+
+
+
+
+.product-grid {
+    display: flex;
+   
+    gap: 30px;
+    padding: 20px;
+    flex-basis: 25%;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    background-color: black;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    height: auto;
+    width: 20%;
+    flex-wrap: wrap;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    flex-basis: 25%;
+    margin-top: 20px;
+  }
+  
+  .product-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-details {
+    margin-top: 16px;
+    color: red;
+  }
+  .product-details h3{
+    margin-top: 16px;
+    color: white;
+  }
+  
+  .product-details h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .product-details p {
+    font-size: 1.2rem;
+    color:white;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color:red;
+  }
+  .vam{
+    justify-content: center;
+    text-align: center;
+  }
+  .advantages-section {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    justify-content: space-around;
+    flex-basis: 50%;
+    
+  }
+  
+  .advantages-section h2 {
+    color: red;
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  
+  .advantages-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    flex-basis: 30%;
+  
+   
+  }
+  
+  .advantage-item1 {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    text-align: center;
+  }
+  .advantage-item2 {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+  text-align: center;
+  }
+  .advantage-item3 {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+  text-align: center;
+  }
+  .advantage-item4 {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+  text-align: center;
+  }
+  
+  
+  
+  .advantage-item1 i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: red;
+    float: left;
+    margin-top: 38px;
+  }
+  .advantage-item2 i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: red;
+  float: left;
+  margin-top: 38px;
+  }
+  .advantage-item3 i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: red;
+  float: left;
+  margin-top: 38px;
+  }
+  .advantage-item4 i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: red;
+  float: left;
+  margin-top: 38px;
+  }
+  
+  .advantage-item1 h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: red;
+  }
+  .advantage-item2 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: red;
+  }
+  .advantage-item3 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: red;
+  }
+  .advantage-item4 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: red;
+  margin-left: 0;
+  
+  }
+  
+  .advantage-item1 p {
+    color: #fff;
+    font-size: 16px;
+  }
+  .advantage-item2 p {
+  color: #fff;
+  font-size: 16px;
+  }
+  .advantage-item3 p {
+  color: #fff;
+  font-size: 16px;
+  }
+  .advantage-item4 p {
+  color: #fff;
+  font-size: 16px;
+  }
+  .footer {
+  background-color: black;
+  color: #fff;
+  padding: 50px 20px;
+  }
+  
+  .footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-left: 40px;
+  background-color: ;
+  }
+  
+  .footer-section {
+  flex: 1;
+  min-width: 200px;
+  }
+  
+  .footer-section h4, .footer-section h3 {
+  color: red;
+  margin-bottom: 20px;
+  }
+  
+  .footer-section p, .footer-section ul {
+  margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  .footer-section ul li {
+  margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+  color: red;
+  }
+  
+  form {
+  display: flex;
+  }
+  
+  form input[type="email"] {
+  padding: 10px;
+  border: none;
+  flex: 1;
+  
+  }
+  
+  form button {
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  }
+  
+  form button:hover {
+  background-color: #ff0000;
+  }
+  
+  .social-icons {
+  display: flex;
+  gap: 10px;
+  }
+  
+  .social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+  color: red;
+  }
+  
+  .footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  margin-right: 10px;
+  background-color: black;
+  }
+  
+  .footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+  }
+  .social-icons{
+  gap: 50px;
+  float: right;
+  flex: 1;
+  align-items: self-end;
+  margin-right: 40px;
+  }
+  .details{
+    background-color: black;
+  }

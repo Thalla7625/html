@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Price Cart</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <!-- Navigation Bar -->
+ <nav class="navbar">
+    <div class="Logo">
+      <a href="index.html" class="logo-link">
+        <h1>Tech-Shop</h1>
+      </a>
+    </div>
+  
+  <div class="nav-links">
+     <!-- Search Icon -->
+     <a href="#" class="search-icon" onclick="toggleSearch()"><i class="fas fa-search"></i></a>
+    
+     <!-- Hidden Search Bar -->
+
+      
+      <a href="http://127.0.0.1:5500/cart.html" class="profile" onclick="openModal()"><i class="fas fa-shopping-cart"></i>
+    </a>
+    <div class="profile-dropdown">
+      <a href="http://127.0.0.1:5500/login.html" class="profile" onclick="openModal()"><i class="fas fa-user"></i></a>
+    </div>
+  </div>
+  </nav>
+<!---container different section-->
+<div class="main">
+    <div class="container">
+        <div class="price-cart">
+            <h3>boat Airdrops 131</h3>
+            <h2>Featherweight for <br>comfort for all days<h2>
+            <h4><strong>$2500</strong> <strike class="str"> $5000 </strike></h4><br>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="boat-image">
+            <img src="./boat131-3.png"> 
+        </div>
+    </div>
+</div>
+    <h2 id="featureproductsheading">Feature products</h2>
+
+    <!---images-->
+    
+  <div class="container">
+    <div class="product-item1">
+     <h3>JBL Endurance Run
+    Sports</h3>
+      <img src="./jbl-endu-1.png" alt="Product 1">
+      <p>$20.99 <strike>$500</strike></p>
+    </div>
+
+    <div class="product-item2">
+      <h3>boAt Airdopes 203</h3>
+      <img src="./boat203-1.png" alt="Product 2">
+      <p>$45.50 <strike>$500</strike></p>
+    </div>
+
+    <div class="product-item3">
+      <h3>boAt Rockerz 518</h3>
+      <img  src="./boat518-1.png" alt="Product 3">
+      <p>$12.30 <strike>$300</strike></p>
+    </div>
+    <div class="product-item4">
+      <h3>JBL Tune 760NC</h3>
+        <img src="./jbl760nc-1.png" alt="Product 3">
+        
+        <p>$12.30 <strike>$300</strike></p>
+      </div>
+
+      <div class="product-item5">
+        <h3>boAt Rockerz 255</h3>
+        <img src="./boat255r-1.png" alt="Product 3">
+        <p>$12.30 <strike>$500</strike></p>
+      </div> 
+  </div>
+
+  <div class="topproducts">
+    <h2>Top products</h2>
+  </div>
+
+  <nav>
+    <ul class="nav-list">
+        <li><a id="change" href="#home">All</a></li>
+        <li><a href="#about">Headphones</a></li>
+        <li><a href="#services">Earbuds</a></li>
+        <li><a href="#contact">Earphones</a></li>
+        <li ><a href="#nackband">Neckband</a></li>
+    </ul>
+</nav>
+<div class="product-grid">
+  <div class="product-card">
+    <div class="product-image">
+        <a href="http://127.0.0.1:5500/product.html">
+      <img src="jbl660nc-1.png"> </a>
+    </div>
+    <div class="product-details">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <h3> JBL Live 66onc</h3>
+      <p> Wireless over-ear Nc<br>
+         Headphones</p>
+      <hr>
+      <p>$9,999<strike> $14,000</strike></p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-image">
+      <a href="http://127.0.0.1:5500/product.html">
+      <img src="boat518-1.png"></a>
+    </div>
+    <div class="product-details">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <h3> boAT Rockerz 518</h3>
+      <p> Wireless over-ear Nc<br>
+         Headphones</p>
+      <hr>
+      <p>$9,999<strike> $14,000</strike></p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-image">
+      <img src="boat131-1.png">
+    </div>
+    <div class="product-details">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <h3>boAT Airdopes 131</h3>
+      <p> Wireless over-ear Nc<br>
+         Headphones</p>
+      <hr>
+      <p>$9,999<strike> $14,000</strike></p>
+      <button>Add to Cart</button>
+    </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="boat110-1.png">
+      </div>
+      <div class="product-details">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <h3>boAT BassHeads 110</h3>
+        <p> Wireless over-ear Nc<br>
+           Headphones</p>
+        <hr>
+        <p>$9,999<strike> $14,000</strike></p>
+        <button>Add to Cart</button>
+      </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+            <img src="boat410-1.png">
+          </div>
+          <div class="product-details">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <h3>boAT Rockerz 410</h3>
+            <p> Wireless over-ear Nc<br>
+               Headphones</p>
+            <hr>
+            <p>$9,999<strike> $14,000</strike></p>
+            <button>Add to Cart</button>
+          </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                <img src="jbl200bt-1.png">
+              </div>
+              <div class="product-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <h3>JBL Live 200BT</h3>
+                <p> Wireless over-ear Nc<br>
+                   Headphones</p>
+                <hr>
+                <p>$9,999<strike> $14,000</strike></p>
+                <button>Add to Cart</button>
+              </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image">
+                    <img src="sonyXb910n-1.png">
+                  </div>
+                  <div class="product-details">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <h3>Sony WH-x13910N</h3>
+                    <p> Wireless over-ear Nc<br>
+                       Headphones</p>
+                    <hr>
+                    <p>$9,999<strike> $14,000</strike></p>
+                    <button>Add to Cart</button>
+                  </div>
+                  </div>
+                  <div class="product-card">
+                      <div class="product-image">
+                        <img src="jbl760nc-1.png">
+                      </div>
+                      <div class="product-details">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <h3> JBL Tune 760NC</h3>
+                        <p> Wireless over-ear Nc<br>
+                           Headphones</p>
+                        <hr>
+                        <p>$9,999<strike> $14,000</strike></p>
+                        <button>Add to Cart</button>
+                      </div>
+                      </div>
+                      <div class="product-card">
+                          <div class="product-image">
+                            <img src="boat255r-1.png">
+                          </div>
+                          <div class="product-details">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <h3>boAT Rockerz 255</h3>
+                            <p> Wireless over-ear Nc<br>
+                               Headphones</p>
+                            <hr>
+                            <p>$9,999<strike> $14,000</strike></p>
+                            <button>Add to Cart</button>
+                          </div>
+                          </div>
+                          <div class="product-card">
+                              <div class="product-image">
+                                <img src="jbl100-1.png">
+                              </div>
+                              <div class="product-details">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <h4> JBL Wave100</h4>
+                                <p> Wireless over-ear Nc<br>
+                                   Headphones</p>
+                                <hr>
+                                <p>$9,999<strike> $14,000</strike></p>
+                                <button>Add to Cart</button>
+                              </div>
+                              </div>
+                              <div class="product-card">
+                                  <div class="product-image">
+                                    <img src="sony1000xm4-1.png">
+                                  </div>
+                                  <div class="product-details">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <h4>Sony WF-100XM4</h4>
+                                    <p> Wireless over-ear Nc<br>
+                                       Headphones</p>
+                                    <hr>
+                                    <p>$9,999<strike> $14,000</strike></p>
+                                    <button>Add to Cart</button>
+                                  </div>
+                                  </div><div class="product-card">
+                                      
+                                        
+                                      
+                                      <div class="browse">
+                                        <p> Browse All <br>
+                                          Products</p>
+                                        
+                                      </div>
+                                      </div>
+       
+</div>
+</div>  
+
+<section class="advantages-section">
+  <h2>Our Advantages</h2>
+  <div class="advantages-container">
+      <div class="advantage-item1">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h4>Express Delivery</h4>
+          <p>Shippin in 24 Hours</p>
+      </div>
+      <div class="advantage-item2">
+          <i class="fa fa-shield-alt"></i>
+          <h4>Brand Warranty</h4>
+          <p>100% Original products</p>
+      </div>
+      <div class="advantage-item3">
+          <i class="fa fa-tags"></i>
+          <h4>Exciting Deals</h4>
+          <p>On all prepaid orders</p>
+      </div>
+      <div class="advantage-item4">
+          <i class="fa fa-lock"></i> 
+           <h4>Secure Payments</h4>
+          <p>SSL / Secure certificate</p>
+      </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-container">
+      <div class="footer-section1">
+          <h3 >Tech-Shop</h3>
+          <p>Subscribe to our Email alerts to receive early</p> 
+          <p>discount offers, and new products info.</p>
+          <form action="#">
+              <input type="email" placeholder="Email Address" required>
+              <button type="submit">Subscribe</button>
+          </form>
+      </div>
+
+      <div class="footer-section">
+          <h4>Help</h4>
+          <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Cancel Order</a></li>
+              <li><a href="#">Return Order</a></li>
+              <li><a href="#">Warranty Info</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-section">
+          <h4>Policies</h4>
+          <ul>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-section">
+          <h4>Company</h4>
+          <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Service Centres</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Affiliates</a></li>
+          </ul>
+      </div>
+      </div>
+      <div class="footer-bottom">
+          <p>© 2024 | All Rights Reserved. Built by | VAMSI THALLA</p>
+      
+      <div class="footer-section"></div>
+          <h4></h4>
+          <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+          </div>
+      </div>
+      
+      
+  </div>
+
+  
+</footer>
+
+
+</body>
+</html>

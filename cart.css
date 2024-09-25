@@ -1,0 +1,214 @@
+html, body {
+    overflow-x: hidden; 
+    background-color: black;/* Prevent horizontal scrolling */
+  }
+  body
+  {
+    background-color: black;
+  }
+            
+  
+  
+  .nav1 {
+      height: 60px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 12px;
+      background-color: black;
+      margin-right: 20px;
+  }
+  
+  .icons {
+      list-style: none;
+      display: flex;
+      width: 250px;
+      justify-content: space-between;
+      padding: 10px;
+      color:white;
+  
+  }
+  
+   a {
+      color: white;
+      display: flex;
+      align-items: center;
+      padding-left: 5px;
+      padding-top: 20px;
+      text-decoration: none;
+      font-size: x-large;
+  }
+  .maindiv{
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  .container1{
+    overflow: hidden;
+    height: 650px;
+  }
+  .container2{
+      
+      background-color: rgb(65, 64, 64);
+      width: 900px;
+      
+      padding-top: 20px;
+  }
+  .priceing {
+      display: flex;
+      font-size: xx-large;
+      padding-left: 50px;
+      color: whitesmoke;
+  }
+  
+  .strikethrough {
+      text-decoration: line-through;
+      color: grey;
+      padding-left: 20px;
+      padding-top: 13px;
+      font-size: x-large;
+  }
+  .card1{
+      display: none;
+      padding-left: 50px;
+      display: flex;
+  }
+  .card1 img{
+      height: 200px;
+      width: 200px;
+  }
+  .minicard1 h2{
+      padding-left: 50px;
+      color: white;
+  }
+  .trash{
+      padding-left: 40px;
+      padding-top: 25px;
+      list-style: none;
+      
+  }
+  .button1{
+      padding-left: 50px;
+      padding-bottom: 20px;
+      
+  }
+  .counter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #1e1e1e;
+      border: 1px solid #3a3a3a;
+      border-radius: 8px;
+      padding: 10px;
+      width: 150px;
+      
+    }
+    
+    .btn {
+      background-color: #1e1e1e;
+      border: none;
+      color: #b3b3b3;
+      font-size: 24px;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+    }
+    
+    .number {
+      font-size: 24px;
+      color: red;
+      text-align: center;
+      width: 30px;
+      
+    }
+    .underline{
+      margin-left: 40px;
+      margin-right: 40px;
+      background-color: transparent;
+    }
+    .container3{
+      padding-left: 30px;
+    }
+    .container3 h2{
+      color: rgb(202, 197, 197);
+  
+    }
+    .container3 h1{
+        color: aliceblue;
+
+    }
+    .original_price{
+      display: flex;
+      justify-content: space-between;
+    }
+    .discount{
+      display: flex;
+      justify-content: space-between;
+    }
+    .discount h3{
+  color: rgb(63, 177, 63);
+    }
+    .checkout {
+      background-color: rgb(226, 15, 15);
+      font-size: 30px;
+       width: 400px;
+      color: white;
+      border-radius: 10px;
+    }
+    .ender{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px; 
+      border-bottom: rgb(223, 55, 55) 3px;
+      
+      
+  }
+  .ender h2{
+      color: white;
+      padding-left: 10px;
+  }
+  .ending{
+      background-color: black;
+  }
+  .ending h3{
+  color: white;
+  }
+  .emailbox{
+      width: 380px;
+      height: 40px;
+      font-size: medium;
+      border-radius: 0px;
+  }
+  .bottom{
+      display: flex;
+      justify-content: space-between;
+  }
+  .bottom2{
+      color: white;
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      padding-right: 10px;
+  }
+  .shopnow {
+    background-color: red;
+    font-size: 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    
+  
+  }
+  
+  .shopnow:hover {
+    background-color: rgb(159, 209, 243);
+  }
+  .help h3
+  {
+    color:rgb(219, 210, 210) ;
+  }
+  .subscribe h3{
+    color: rgb(214, 218, 222);
+  }
+  
+  
